@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+
+body {
+    margin: 0 auto;
+    background: var(--main-color);
+    font-family: 'Work Sans', sans-serif;
+    color: var(--main-color);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+.first-page {
+    margin: 0 auto;
+    height: 100vh;
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-block {
+    padding: 20px 0;
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px 80px 10px 10px;
+    background: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-block > img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.info-block {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.social-media_block {
+    background: var(--second-color);
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    padding: 10px;
+    border-radius: 10px;
+}
+.social-media_block > img {
+    width: 50px;
+}
+.social-media_block > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media_link {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 28px;
+    font-weight: 400;
+}
+.social-media {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skils-tools {
+    height: 50%;
+}
+.name {
+    font-size: 36px;
+    font-weight: 500;
+}
+.prof {
+    font-size: 24px;
+    font-weight: 300;
+}
+.skills,
+.tools {
+    padding: 30px;
+    box-sizing: border-box;
+    width: 50%;
+    background: var(--second-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    font-size: 28px;
+}
+.skils-tools {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heading {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.second-page {
+    height: 100vh;
+    background: var(--second-color);
+}
